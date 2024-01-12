@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+
+    background-color: rgb(253, 240, 240);
+}
+.swiper-button-next:after,
+.swiper-button-prev:after{
+
+    color:rgb(0, 97, 139);
+}
+
+.swiper-pagination-progressbar.swiper-pagination-progressbar-fill{
+
+    background: #a8dadc !important;
+}
+
+html::-webkit-scrollbar{
+    display:none;
+}
